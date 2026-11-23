@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_sos"
+        android:icon="@drawable/ic_sos"
+        android:title="@string/nav_sos" />
+    <item
+        android:id="@+id/nav_contacts"
+        android:icon="@drawable/ic_contacts"
+        android:title="@string/nav_contacts" />
+    <item
+        android:id="@+id/nav_helplines"
+        android:icon="@drawable/ic_helpline"
+        android:title="@string/nav_helplines" />
+    <item
+        android:id="@+id/nav_first_aid"
+        android:icon="@drawable/ic_first_aid"
+        android:title="@string/nav_first_aid" />
+</menu>

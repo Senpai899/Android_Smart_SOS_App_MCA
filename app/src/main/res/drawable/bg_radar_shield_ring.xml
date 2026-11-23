@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Outer dashed Cyber Shield Frame -->
+    <item>
+        <shape android:shape="rectangle">
+            <size android:width="220dp" android:height="220dp"/>
+            <corners android:radius="48dp" />
+            <stroke
+                android:width="2dp"
+                android:color="#40FF3B30"
+                android:dashWidth="8dp"
+                android:dashGap="4dp" />
+            <solid android:color="#0AFF3B30" />
+        </shape>
+    </item>
+    <!-- Inner glowing ring -->
+    <item android:top="12dp" android:bottom="12dp" android:left="12dp" android:right="12dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="40dp" />
+            <stroke
+                android:width="2dp"
+                android:color="#80FF3B30" />
+            <solid android:color="#1AFF3B30" />
+        </shape>
+    </item>
+</layer-list>

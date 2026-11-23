@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Outer dashed radar ring -->
+    <item>
+        <shape android:shape="oval">
+            <size android:width="230dp" android:height="230dp"/>
+            <stroke
+                android:width="2dp"
+                android:color="#40FF3B30"
+                android:dashWidth="8dp"
+                android:dashGap="4dp" />
+            <solid android:color="#0AFF3B30" />
+        </shape>
+    </item>
+    <!-- Inner glowing ring -->
+    <item android:top="15dp" android:bottom="15dp" android:left="15dp" android:right="15dp">
+        <shape android:shape="oval">
+            <stroke
+                android:width="2dp"
+                android:color="#80FF3B30" />
+            <solid android:color="#1AFF3B30" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Smart SOS</string>
+    <string name="nav_sos">Emergency SOS</string>
+    <string name="nav_contacts">Contacts</string>
+    <string name="nav_helplines">Helplines</string>
+    <string name="nav_first_aid">First Aid</string>
+
+    <string name="sos_title">SOS Emergency</string>
+    <string name="sos_subtitle">Tap button or shake phone to broadcast emergency alert</string>
+    <string name="press_for_sos">HOLD / TAP FOR SOS</string>
+    <string name="shake_detection_title">Shake Emergency Mode</string>
+    <string name="shake_detection_desc">Shake your phone vigorously to send an instant SOS SMS with your GPS location to all emergency contacts.</string>
+    <string name="default_sos_template">EMERGENCY ALERT! I need immediate help. My current live location is: {LOCATION}</string>
+
+    <string name="add_contact">Add Emergency Contact</string>
+    <string name="edit_message">Customize SOS Message</string>
+    <string name="no_contacts">No emergency contacts saved yet.\nAdd contacts who will receive your location during emergencies.</string>
+    <string name="helpline_title">Indian Helpline Numbers</string>
+    <string name="helpline_subtitle">Tap any service to dial directly</string>
+    <string name="first_aid_title">First Aid Emergency Guides</string>
+    <string name="first_aid_subtitle">Essential life-saving instructions</string>
+</resources>
